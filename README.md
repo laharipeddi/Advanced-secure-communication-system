@@ -24,13 +24,18 @@ This project implements a dual-layered security system for transmitting confiden
 ---
 ## Project Structure
 
-.
-├── app.py # Main Flask application
-├── Encryption.py # Custom symmetric encryption logic
-├── Decryption.py # Decryption logic
-├── steanov_2.py # Modified LSB steganography functions
-├── Preprocessing.py # Binary conversion utilities
-├── string_to_binary.py # Bitwise helpers
-├── templates/ # HTML files for the web interface
-├── static/ # CSS, JS, or image assets
-└── README.md # Project documentation
+- app.py # Main Flask application
+-  Encryption.py # Custom symmetric encryption logic
+- ecryption.py # Decryption logic
+- steanov_2.py # Modified LSB steganography functions
+- Preprocessing.py # Binary conversion utilities
+- string_to_binary.py # Bitwise helpers
+- templates/ # HTML files for the web interface
+- static/ # CSS, JS, or image assets
+- README.md # Project documentation
+## How To Run
+- git clone https://github.com/laharipeddi/secure-data-transmission.git
+- cd secure-data-transmission
+- pip install -r requirements
+- Run python app.py
+- open in browser http://localhost:5000
