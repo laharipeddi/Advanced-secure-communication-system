@@ -34,8 +34,6 @@ This project implements a dual-layered security system for transmitting confiden
 - static/ # CSS, JS, or image assets
 - README.md # Project documentation
 ## How To Run
-- git clone https://github.com/laharipeddi/secure-data-transmission.git
-- cd secure-data-transmission
 - pip install -r requirements
 - Run python app.py
 - open in browser http://localhost:5000
